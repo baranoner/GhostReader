@@ -1,0 +1,124 @@
+.bar {
+    background-color: #358fd0;
+    width: 100%;
+    height: 10vh;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    .container-menu {
+        background-color: rgba(255, 255, 255, 0.1);
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .menu-user {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 30px;
+            height: 18%;
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: 18px;
+            color: black;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+        .menu-tabs {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 30px;
+            width: 70%;
+            height: 43%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            .menu-tab {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 500;
+                letter-spacing: 1px;
+                cursor: pointer;
+            }
+        }
+        input {
+            height: 8%;
+            width: 50%;
+            background-color: #358fd0c5;
+            border-radius: 20px;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 600;
+            font-size: 20px;
+            letter-spacing: 1px;
+            border: solid white 1px;
+            cursor: pointer;
+        }
+    }
+    .container-ayarlar {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .ayarlar-genel {
+            background-color: rgba(255, 255, 255, 0.8);
+            width: 80%;
+            height: 80%;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            hr {
+                height: 2px;
+                width: 80%;
+                background-color: black;
+                border: 1000px;
+            }
+            .baslik {
+                width: 80%;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                hr {
+                    height: 4px;
+                    width: 100%;
+                }
+            }
+            .ayarlar {
+                height: 14%;
+                width: 70%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;               
+                font-size: 18px;
+                font-weight: 500;
+                letter-spacing: 1px;
+                .ayarlar-kalin {
+                    font-weight: 600;
+                    font-size: 22px;
+                  }
+                  button {
+                    width: 25%;
+                    height: 80%;
+                    border-radius: 20px;
+                    border: none;
+                    background-color: #358fd0d0;
+                    cursor: pointer;
+                    font-size: 20px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                  }
+                  .volume-slider {
+                    width: 40%;
+                  }
+              }
+        }
+    }
+}

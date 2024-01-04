@@ -1,0 +1,99 @@
+.yardim-container {
+    padding: 115px 10% 0 10%;
+    .container-main {
+        display: flex;
+        flex-direction: column;
+        hr {
+            width: 100%;
+            height: 1px;
+            background-color: black;
+            margin-bottom: 2rem;
+        }
+        .container-sss {
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 30px;
+            padding: 2rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .soru {
+                background-color: #358fd06b;
+                width: 70%;
+                padding: 0 5%;
+                margin-bottom: 2rem;
+                border-radius: 20px;
+                hr {
+                    margin: 0;
+                }
+            }
+        }
+        .container-contact {
+            margin-top: 2rem;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 30px;
+            padding: 2rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .form-iletisim {
+                width: 95%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                .contact-form form {
+                    display: flex;
+                    flex-direction: column;
+                    height: 25rem;
+                    align-items: center;
+                    justify-content: space-around;
+                    input {
+                        height: 3rem;
+                        width: 20rem;
+                        border-radius: 20px;
+                        border: none;
+                        outline: none;
+                        padding: 1px 10px 1px 10px;
+                        font-size: 15px;
+                        background-color: rgba(0, 0, 0, 0.6);
+                        color: rgba(255, 255, 255, 0.9);
+                        font: white;
+                    }
+                    input:nth-child(3) {
+                        height: 10rem;
+                        margin-bottom: 1rem;
+                        justify-content: center;
+                    }
+                    input:last-child {
+                        background-color: #358fd0;
+                        padding: 1px 10px 1px 9px;
+                        font-weight: 500;
+                        font-size: 20px;
+                        letter-spacing: 2px;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+            .iletisim {
+                display: flex;
+                flex-direction: column;
+                align-items: center;               
+                .adres-tel {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 80%;
+                    line-height: 2rem;
+                    text-align: center;
+                }
+                .sosyal-medya {
+                    display: flex;                                       
+                    justify-content: space-around;
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
